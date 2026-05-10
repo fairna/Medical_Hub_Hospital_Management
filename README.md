@@ -135,41 +135,6 @@ Pendekatan **database-first** ini diimplementasikan agar:
 
 ---
 
-## 📂 Project Structure
-
-```
-medhub/
-├── 📄 index.php                    # Landing page
-├── 📄 login.php                    # Login page
-├── 📄 register.php                 # Registration page
-├── 📄 logout.php                   # Logout handler
-├── 📄 profile.php                  # User profile management
-│
-├── 📄 dokter.php                   # Doctor list & search
-├── 📄 pasien.php                   # Patient data form
-├── 📄 appointment.php              # Appointment booking form
-├── 📄 my_appointment.php           # Appointment history
-│
-├── 📄 payment.php                  # Payment page
-├── 📄 payment_service.php          # Payment processor
-│
-├── 📄 get_doctors.php              # AJAX endpoint: doctors by specialization
-├── 📄 get_schedules.php            # AJAX endpoint: schedules by doctor
-├── 📄 get_slots.php                # AJAX endpoint: available time slots
-├── 📄 check_slot_availability.php  # AJAX endpoint: slot validation
-│
-├── 📄 connection.php               # Database connection wrapper
-├── 📄 mbd.sql                      # Complete database schema + seed data
-│
-└── 📁 assets/
-    ├── 📁 css/                     # Custom stylesheets
-    ├── 📁 img/                     # Images & icons
-    ├── 📁 js/                      # JavaScript files
-    └── 📁 vendor/                  # 3rd-party libraries
-```
-
----
-
 ## 🚀 Installation
 
 ### Prerequisites

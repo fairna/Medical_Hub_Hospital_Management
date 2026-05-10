@@ -1,1 +1,1 @@
-# Final-Project-MBD2024
+# Final Project for Database Management
